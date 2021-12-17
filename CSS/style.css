@@ -1,0 +1,56 @@
+html, body {
+	background: url(22.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+
+}
+
+.welcome {
+	font-size: 15px;
+	font: italic small-caps bold 16px/2 cursive;
+}
+
+
+.header {
+    margin: auto;
+    color: #82C1D3;
+  	background-color: #FFE373;
+  	padding: 10px 16px;
+}
+
+.top {
+	background-color: white;
+	margin: 0;
+  	padding: 90px;
+  	text-align: center;
+  	opacity: .6;
+  	font: italic bold 16px cursive;
+  }
+
+.sticky {
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+}	
+
+.content {
+  padding: 16px;
+}
+.sticky + .content {
+  	padding-top: 102px;
+}
+
+
+
+
+a {
+	color: #82C1D3;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color:  #fa86c4;
