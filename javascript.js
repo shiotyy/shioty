@@ -9,6 +9,11 @@ function myFunction() {
   } else {
     header.classList.remove("sticky");
   }
-}
-  
+}	
 
+const posts = document.querySelectorAll('.gallery-item');
+posts.forEach(post => {
+	post.addEventListener('click', () => {
+
+window.open(imgUrl, '_blank');
+	});
